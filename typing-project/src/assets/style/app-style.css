@@ -1,0 +1,131 @@
+body {
+  font-family: 'Courier New', monospace; /* Typing-themed font */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: #ffc107 !important; /* Yellow for active state */
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background: #ffc107;
+  color: #000;
+}
+
+.home-bg {
+  background-image: url('https://source.unsplash.com/featured/?typing,keyboard'); 
+  /* background-image: url('../images/1.png');  */
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 200px;
+}
+.carousel .carousel-text{
+  margin-left: 5.5rem !important;
+  margin-right: 5.5rem !important;
+}
+
+
+.mode-container {
+  background: rgba(255, 255, 255, 0.1);
+  /* background: #fff; */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mode-container h2{
+    color: black;
+    text-shadow: 2px 1px 2px #2980b9;
+    font-weight: bold;
+}
+
+.typing-text {
+  font-size: 1.5rem;
+  /* background: #000; */
+  /* color: #0f0; */
+  /* color: #000; */
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.correct {
+  color: darkgreen;
+}
+
+.incorrect {
+  color: maroon;
+  text-decoration: underline;
+}
+
+.stats{
+  font-weight: bold;
+}
+
+.btn-custom {
+  background: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-custom:hover {
+  background: #e0a800;
+}
+.timer{
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.game-area {
+  background: #000;
+  color: #0f0;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+}
